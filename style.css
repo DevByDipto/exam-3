@@ -1,0 +1,111 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Serif:ital,wght@0,100..900;1,100..900&display=swap');
+.update {
+    display: none;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: azure;
+    font-family: "Noto Serif", serif;
+}
+button{
+cursor: pointer;
+}
+.container {
+    width: 800px;
+    background-color: white;
+}
+
+input {
+    display: block;
+    margin: 15px auto;
+}
+
+.publish {
+    display: block;
+    margin: 0 auto;
+    margin-bottom: 20px;
+    width: 400px;
+    height: 30px;
+    border-radius: 20px;
+    border: 0;
+    background-color: rgba(46, 46, 249, 0.616);
+    font-family: "Noto Serif", serif;
+
+}
+
+.title_input{
+    width: 200px;
+    height: 20px;
+    border-radius: 20px;
+    border: 1px solid rgb(212, 203, 203);
+    padding: 10px;
+font-size: 16px;
+}
+.title_input::placeholder{
+    font-size: 18px;
+}
+.description_input{
+    width: 700px;
+    height: 30px;
+    border: 0;
+    padding: 10px;
+    border: 0px solid rgb(212, 203, 203);
+    border-radius: 20px;
+outline: none;
+font-size: 20px;
+text-align: center;
+position: relative;
+}
+.description_input::placeholder{
+    font-size: 30px;
+    /* margin: 0 auto; */
+    text-align: center;
+    cursor: cell;
+}
+
+.box{
+    margin: 10px auto;
+    width: 750px;
+    border: 1px solid rgb(205, 201, 201);
+    padding: 10px;
+}
+.username{
+    font-weight: 600;
+    margin: 0;
+}
+.edit{
+    background-color: rgba(46, 46, 249, 0.616);
+    border: 0;
+    border-radius: 15px;
+    padding: 2.5px 13px 2.5px 13px;
+    font-family: "Noto Serif", serif;
+
+}
+.delete{
+    background-color: rgba(249, 46, 46, 0.616);
+    border: 0;
+    border-radius: 15px;
+    padding: 2.5px 13px 2.5px 13px;
+    font-family: "Noto Serif", serif;
+
+}
+.note_count{
+    margin: 10px 0px 5px 20px;
+font-weight: 600;
+}
+h1{
+    margin: 10px 0px 5px 20px;
+}
+a svg{
+    height: 30px;
+    width: 30px;
+}
+.searching{
+  
+    position: absolute;
+    top: 27vh;
+    left: 76vw;
+}

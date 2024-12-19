@@ -1,7 +1,4 @@
 @import url('https://fonts.googleapis.com/css2?family=Noto+Serif:ital,wght@0,100..900;1,100..900&display=swap');
-.update {
-    display: none;
-}
 
 body {
     display: flex;
@@ -36,7 +33,7 @@ input {
 
 }
 .update{
-    display: block;
+    display: none;
     margin: 0 auto;
     margin-bottom: 20px;
     width: 400px;

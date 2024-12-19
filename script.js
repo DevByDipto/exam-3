@@ -67,7 +67,7 @@ function editfun() {
       descriptionInput.value = arr[index].description;
 
       publish.style.display = "none";
-      update.style.display = "inline-block";
+      update.style.display = "block";
       indexStore = index;
       updatefun();
     });
@@ -78,7 +78,7 @@ function updatefun() {
   update.addEventListener("click", () => {
     arr[indexStore].userName = titleInput.value;
     arr[indexStore].description = descriptionInput.value;
-    publish.style.display = "inline-block";
+    publish.style.display = "block";
     update.style.display = "none";
     display();
   });

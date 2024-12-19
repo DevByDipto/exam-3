@@ -35,7 +35,18 @@ input {
     font-family: "Noto Serif", serif;
 
 }
-
+.update{
+    display: block;
+    margin: 0 auto;
+    margin-bottom: 20px;
+    width: 400px;
+    height: 30px;
+    border-radius: 20px;
+    border: 0;
+    background-color: rgba(46, 46, 249, 0.616);
+    font-family: "Noto Serif", serif;
+}
+    
 .title_input{
     width: 200px;
     height: 20px;
